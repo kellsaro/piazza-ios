@@ -16,6 +16,7 @@
 		FD09C3BC2C8A3841004D182B /* piazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C3BB2C8A3841004D182B /* piazzaTests.swift */; };
 		FD09C3C62C8A3841004D182B /* piazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C3C52C8A3841004D182B /* piazzaUITests.swift */; };
 		FD09C3C82C8A3841004D182B /* piazzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C3C72C8A3841004D182B /* piazzaUITestsLaunchTests.swift */; };
+		FD09C3D62C8A3921004D182B /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = FD09C3D52C8A3921004D182B /* Turbo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD09C3D62C8A3921004D182B /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = piazza;
+			packageProductDependencies = (
+				FD09C3D52C8A3921004D182B /* Turbo */,
+			);
 			productName = piazza;
 			productReference = FD09C3A12C8A383E004D182B /* piazza.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = FD09C3982C8A383E004D182B;
+			packageReferences = (
+				FD09C3D42C8A3921004D182B /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			productRefGroup = FD09C3A22C8A383E004D182B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -601,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD09C3D42C8A3921004D182B /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD09C3D52C8A3921004D182B /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD09C3D42C8A3921004D182B /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD09C3992C8A383E004D182B /* Project object */;
 }
