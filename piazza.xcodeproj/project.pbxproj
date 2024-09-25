@@ -15,6 +15,16 @@
 		FD09C3C62C8A3841004D182B /* piazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C3C52C8A3841004D182B /* piazzaUITests.swift */; };
 		FD09C3C82C8A3841004D182B /* piazzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09C3C72C8A3841004D182B /* piazzaUITestsLaunchTests.swift */; };
 		FD09C3D62C8A3921004D182B /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = FD09C3D52C8A3921004D182B /* Turbo */; };
+		FD7DA17B2CA464770058EFF9 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA17A2CA464770058EFF9 /* Api.swift */; };
+		FD7DA17D2CA47C1E0058EFF9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA17C2CA47C1E0058EFF9 /* RootViewController.swift */; };
+		FD7DA1802CA480EB0058EFF9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD7DA17E2CA480EB0058EFF9 /* Localizable.strings */; };
+		FD7DA1822CA489250058EFF9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA1812CA489250058EFF9 /* BaseNavigationController.swift */; };
+		FD7DA1842CA489690058EFF9 /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA1832CA489690058EFF9 /* RoutingController.swift */; };
+		FD7DA1862CA48C6E0058EFF9 /* path_configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = FD7DA1852CA48C6D0058EFF9 /* path_configuration.json */; };
+		FD7DA1882CA48CCF0058EFF9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA1872CA48CCF0058EFF9 /* Global.swift */; };
+		FD7DA18A2CA492BB0058EFF9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA1892CA492BB0058EFF9 /* WebViewController.swift */; };
+		FD7DA18C2CA494360058EFF9 /* ViewControllerVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA18B2CA494360058EFF9 /* ViewControllerVendor.swift */; };
+		FD7DA18E2CA4C4270058EFF9 /* PathDirectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DA18D2CA4C4270058EFF9 /* PathDirectable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,16 @@
 		FD09C3C12C8A3841004D182B /* piazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD09C3C52C8A3841004D182B /* piazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piazzaUITests.swift; sourceTree = "<group>"; };
 		FD09C3C72C8A3841004D182B /* piazzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piazzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD7DA17A2CA464770058EFF9 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		FD7DA17C2CA47C1E0058EFF9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FD7DA17F2CA480EB0058EFF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD7DA1812CA489250058EFF9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		FD7DA1832CA489690058EFF9 /* RoutingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingController.swift; sourceTree = "<group>"; };
+		FD7DA1852CA48C6D0058EFF9 /* path_configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = path_configuration.json; sourceTree = "<group>"; };
+		FD7DA1872CA48CCF0058EFF9 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		FD7DA1892CA492BB0058EFF9 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FD7DA18B2CA494360058EFF9 /* ViewControllerVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVendor.swift; sourceTree = "<group>"; };
+		FD7DA18D2CA4C4270058EFF9 /* PathDirectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathDirectable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +118,20 @@
 			isa = PBXGroup;
 			children = (
 				FD09C3A42C8A383E004D182B /* AppDelegate.swift */,
+				FD7DA17A2CA464770058EFF9 /* Api.swift */,
+				FD7DA17C2CA47C1E0058EFF9 /* RootViewController.swift */,
 				FD09C3A62C8A383E004D182B /* SceneDelegate.swift */,
+				FD7DA17E2CA480EB0058EFF9 /* Localizable.strings */,
+				FD7DA18D2CA4C4270058EFF9 /* PathDirectable.swift */,
 				FD09C3AD2C8A3841004D182B /* Assets.xcassets */,
 				FD09C3AF2C8A3841004D182B /* LaunchScreen.storyboard */,
 				FD09C3B22C8A3841004D182B /* Info.plist */,
+				FD7DA1812CA489250058EFF9 /* BaseNavigationController.swift */,
+				FD7DA1852CA48C6D0058EFF9 /* path_configuration.json */,
+				FD7DA1872CA48CCF0058EFF9 /* Global.swift */,
+				FD7DA1832CA489690058EFF9 /* RoutingController.swift */,
+				FD7DA1892CA492BB0058EFF9 /* WebViewController.swift */,
+				FD7DA18B2CA494360058EFF9 /* ViewControllerVendor.swift */,
 			);
 			path = piazza;
 			sourceTree = "<group>";
@@ -235,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD09C3AE2C8A3841004D182B /* Assets.xcassets in Resources */,
+				FD7DA1802CA480EB0058EFF9 /* Localizable.strings in Resources */,
 				FD09C3B12C8A3841004D182B /* Base in Resources */,
+				FD7DA1862CA48C6E0058EFF9 /* path_configuration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7DA17B2CA464770058EFF9 /* Api.swift in Sources */,
 				FD09C3A52C8A383E004D182B /* AppDelegate.swift in Sources */,
+				FD7DA18C2CA494360058EFF9 /* ViewControllerVendor.swift in Sources */,
+				FD7DA1842CA489690058EFF9 /* RoutingController.swift in Sources */,
+				FD7DA17D2CA47C1E0058EFF9 /* RootViewController.swift in Sources */,
+				FD7DA18E2CA4C4270058EFF9 /* PathDirectable.swift in Sources */,
+				FD7DA1822CA489250058EFF9 /* BaseNavigationController.swift in Sources */,
 				FD09C3A72C8A383E004D182B /* SceneDelegate.swift in Sources */,
+				FD7DA1882CA48CCF0058EFF9 /* Global.swift in Sources */,
+				FD7DA18A2CA492BB0058EFF9 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +364,14 @@
 				FD09C3B02C8A3841004D182B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7DA17E2CA480EB0058EFF9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7DA17F2CA480EB0058EFF9 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

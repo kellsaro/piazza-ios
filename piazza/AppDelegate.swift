@@ -2,8 +2,9 @@
 //  AppDelegate.swift
 //  piazza
 //
-//  Created by Maykell on 5/9/24.
-//
+//  Contributors:
+//    kellsaro@gmail.com on 25/9/24.
+
 
 import UIKit
 
